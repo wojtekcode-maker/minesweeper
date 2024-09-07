@@ -1,0 +1,28 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE config files (adjust based on your IDE)
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore environment and sensitive files
+.env
+config.php
+
+# Ignore compiled PHP files
+*.php~
+*.swp
+
+# Ignore cache and temporary files
+tmp/
+cache/
+
+# Ignore vendor directory if you are using any composer packages (not applicable here but just in case)
+vendor/
+
+# Ignore node_modules if you're using npm (in case of front-end dependencies)
+node_modules/
